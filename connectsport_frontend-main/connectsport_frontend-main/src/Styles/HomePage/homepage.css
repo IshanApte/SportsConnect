@@ -1,0 +1,55 @@
+/* Add a background image to the body */
+body {
+    background-image: url('../../assets/images/background.jpg'); /* Replace 'your-background-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Styles for the main content container */
+.container-fluid {
+    padding-top: 50px; /* Adjust top padding as needed */
+}
+
+/* Styles for the main content area */
+.col-md-6 {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 20px;
+    margin-bottom: 30px; /* Add some space at the bottom */
+}
+
+/* Hover effect for post items */
+.post-item:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+/* Styles for the post form */
+.post-form {
+    margin-bottom: 20px;
+}
+
+/* Styles for the poll form */
+.poll-form {
+    margin-bottom: 20px;
+}
+
+/* Styles for the search component */
+.search-component {
+    margin-bottom: 20px;
+}
+
+/* Styles for the navbar */
+.navbar {
+    position: fixed; /* Fix the navbar at the top */
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays on top of other elements */
+}
+
+/* Styles for left and right sidebar content */
+.col-md-3 {
+    /* Add your styles for sidebar content here */
+}
+

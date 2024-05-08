@@ -1,0 +1,66 @@
+/* page.module.css */
+.container-fluid {
+  min-height: 100vh; /* Full viewport height */
+  background-image: url('../../assets/images/background_8.jpeg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* Optional: for parallax-like effect */
+  position: relative; /* Needed for pseudo-element positioning */
+}
+
+/* Adding a white overlay with reduced opacity to lighten the image */
+.container-fluid::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
+  z-index: -1;
+}
+
+.semiTransparentCard {
+  background-color: rgba(255, 255, 255, 0.7); /* White with 50% opacity */
+}
+
+.cardCustom {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.cardTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.pageItem {
+  margin-bottom: 15px;
+}
+
+.pageHeader {
+  font-size: 18px;
+}
+
+.pageTitle {
+  font-weight: bold;
+}
+
+.pageLink {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.pageLink:hover {
+  text-decoration: underline;
+}
+
+.pageDescription {
+  color: #666;
+}

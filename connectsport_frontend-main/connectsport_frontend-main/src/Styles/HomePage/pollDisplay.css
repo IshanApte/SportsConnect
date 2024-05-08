@@ -1,0 +1,39 @@
+/* PollDisplay.css */
+.poll-display {
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.poll-display .progress {
+  height: 1rem; /* A thinner progress bar for subtlety */
+  background-color: #e9ecef; /* Bootstrap's light grey */
+}
+
+.poll-display .progress-bar {
+  background-color: #007bff; /* Bootstrap's primary color */
+  transition: width 0.6s ease; /* Smooth transition for visual feedback */
+}
+
+.poll-display .form-check-input {
+  display: none; /* Hide the default radio button */
+}
+
+.poll-display .form-check-label {
+  margin-bottom: 0; /* Align the label styling with the progress bar */
+  cursor: pointer; /* Indicate the label is clickable */
+  border: 1px solid transparent; /* Smooth out the border of the label/button */
+}
+
+.poll-display .form-check-label:hover {
+  background-color: #e9ecef; /* A hover effect for the label/button */
+}
+
+.poll-display .form-check-inline {
+  margin-right: 0; /* Align the radio button label with the progress bar */
+}
+
+.poll-display .card-title {
+  font-size: 1.25rem; /* A comfortable size for the poll question */
+  font-weight: 500; /* Semi-bold for better readability */
+}

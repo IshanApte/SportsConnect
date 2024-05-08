@@ -1,0 +1,152 @@
+/* Global Styles */
+  
+  .app-container {
+    display: flex;
+    height: 90vh;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 300px;
+    background-color: #2C3E50;
+    color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .user-item {
+    cursor: pointer;
+    padding: 10px 0;
+    border-bottom: 1px solid #34495e;
+  }
+  
+  .user-item:hover {
+    background-color: #34495e;
+  }
+  
+  /* Search Bar Styles */
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    width: 48%;
+    padding: 10px;
+    margin-right: 4%;
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:last-child {
+    margin-right: 0;
+  }
+  
+  /* Chat Area Styles */
+  .chat-area {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #ecf0f1;
+  }
+  
+  .chat-messages {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .message-input-container {
+    display: flex;
+    padding: 10px;
+    background-color: #bdc3c7;
+  }
+  
+  .message-input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #34495e;
+    border-radius: 4px;
+  }
+  
+  .message-input-container button {
+    padding: 10px 20px;
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* CSS adjustments */
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  display: flex;
+  max-width: 80%; /* Maximum width for message bubbles */
+  word-break: break-word; /* Ensure long words do not overflow */
+}
+
+.message.sent {
+  justify-content: flex-end;
+  margin-left: auto;
+  background-color: #DCF8C6;
+}
+
+.message.received {
+  justify-content: flex-start;
+  margin-right: auto;
+  background-color: #ECECEC;
+}
+
+.message p {
+  padding: 8px 12px; /* Adjust padding for better readability */
+  border-radius: 20px; /* Rounded corners for message bubbles */
+  margin: 4px; /* Space between messages */
+}
+
+.active-chat-header {
+  padding: 10px;
+  background-color: #f0f0f0; /* Light gray background */
+  border-bottom: 1px solid #d0d0d0; /* A subtle border */
+  text-align: center; /* Center the text */
+  font-size: 16px; /* Slightly larger font size for visibility */
+}
+
+/* chatList.css */
+
+.group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.manage-group-btn {
+  padding: 2px 8px;
+  font-size: 12px;
+  margin-left: auto; /* Ensures it stays to the right */
+  cursor: pointer;
+}
+
+.user-list {
+  max-height: calc(100vh - 100px); /* Example height, adjust based on your layout */
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding-right: 5px; /* Optional: to ensure scrollbar doesn't overlap content */
+}

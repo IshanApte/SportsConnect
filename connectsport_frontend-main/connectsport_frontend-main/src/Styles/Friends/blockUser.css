@@ -1,0 +1,62 @@
+.block-user-container {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .results-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    background-color: #f9f9f9;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  .block-button {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Inside blockUser.css
+.block-button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+} */
+
+.block-button.block {
+  background-color: red;
+}
+
+.block-button.unblock {
+  background-color: green;
+}
+
+
+  .block-button:hover {
+    background-color: #0056b3;
+  }
+
+
+  

@@ -1,0 +1,15 @@
+.btn-my-polls {
+    background-color: #5cb85c; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-my-polls:hover {
+    background-color: #4cae4c; /* Slightly darker green on hover */
+  }
+  

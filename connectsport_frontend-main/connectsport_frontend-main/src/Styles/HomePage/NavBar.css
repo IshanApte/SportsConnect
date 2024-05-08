@@ -1,0 +1,111 @@
+.navbar {
+    background-color: #e3f2fd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0; /* Changed from 0.5rem 1rem to remove horizontal padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1000; /* Set a higher z-index value */
+    margin: 0 auto; /* Ensure no side margins */
+    width: 100%; /* Full width */
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.navbar-logo {
+    width: 40px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.navbar-brand-name {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+    flex-grow: 2;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.search-input {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    padding-right: 2.5rem;
+    width: 100%;
+    max-width: 100%;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.search-button {
+    position: absolute;
+    right: 10px;
+    height: 100%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.navbar-nav a {
+    color: #333;
+    margin: 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.navbar-nav a:hover,
+.navbar-nav a.active {
+    color: #007bff;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-left: 1rem;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}

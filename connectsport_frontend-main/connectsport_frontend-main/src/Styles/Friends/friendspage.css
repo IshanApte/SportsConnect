@@ -1,0 +1,88 @@
+/* AppStyles.css */
+
+/* General styling */
+.custom-container {
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .custom-button {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .btn-accept {
+    background-color: #4CAF50; /* Green */
+    border-color: #4CAF50;
+  }
+  
+  .btn-reject {
+    background-color: #F44336; /* Red */
+    border-color: #F44336;
+  }
+  
+  /* Specific styling */
+  .filterSidebar select {
+    margin-bottom: 15px; /* Spacing between selects */
+  }
+  
+  /* Ensuring buttons are on the same line with names */
+  .list-group-item-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+/* AppStyles.css - Additional Styles */
+
+.dropdown-toggle {
+    background-color: #ffffff; /* Light background */
+    color: #333; /* Dark text for contrast */
+    border: 2px solid #ced4da; /* Slight border */
+    text-align: left;
+  }
+  
+  .dropdown-toggle:hover, .dropdown-toggle:focus {
+    background-color: #f8f9fa; /* Slightly darker on hover/focus */
+    color: #333;
+    border-color: #bfc4ca;
+  }
+  
+  .dropdown-menu {
+    width: 100%; /* Full width */
+    border-radius: 0 0 8px 8px; /* Match the container's border-radius */
+    border: 2px solid #ced4da;
+    border-top: none; /* Seamless transition from button to menu */
+  }
+  
+  .dropdown-item {
+    color: #333; /* Ensuring text is readable */
+  }
+  
+  .dropdown-item:hover, .dropdown-item:focus {
+    color: #fff; /* White text on hover/focus */
+    background-color: #0056b3; /* Highlight color */
+  }
+
+  
+  .card {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border: none; /* Remove default border */
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  

@@ -1,0 +1,88 @@
+/* ---------- SIGN IN ---------- */
+.sign-in__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.sign-in__backdrop {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sign-in__wrapper form {
+  width: 24rem;
+  max-width: 90%;
+  z-index: 1;
+  animation: showSignInForm 1s;
+}
+
+.sign-in__wrapper form img {
+  width: 4rem;
+}
+
+@keyframes showSignInForm {
+  0%,
+  30% {
+    transform: translate(0, -150%);
+  }
+  70%,
+  90% {
+    transform: translate(0, 1rem);
+  }
+  80%,
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.social-login-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the space between buttons */
+}
+
+.social-icon {
+  margin-right: 10px;
+}
+
+.google-sign-in, .facebook-sign-in {
+  /* Styles for social sign-in buttons */
+  padding: 10px;
+  border: none; /* If you want to remove borders */
+  font-weight: bold;
+}
+
+/* Divider with 'or' Text */
+.divider-or {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 8px 0;
+}
+
+.divider-or .divider-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #979797;
+  margin: 0 10px; /* Space between line and 'or' text */
+}
+
+.divider-or span {
+  color: #8c8c8c;
+  white-space: nowrap;
+}
+
+/* Registration Prompt */
+.registration-prompt {
+  margin-top: 8px;
+}
+

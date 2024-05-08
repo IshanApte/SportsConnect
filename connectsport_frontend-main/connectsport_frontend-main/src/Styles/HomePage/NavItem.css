@@ -1,0 +1,23 @@
+.nav-item {
+    margin: 0.5rem 1rem;
+  }
+  
+  .nav-link {
+    color: #007bff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+  
+  .nav-link:hover {
+    color: #0056b3;
+  }
+  
+  .nav-item.active .nav-link {
+    font-weight: bold;
+  }
+  
+  .nav-item.disabled .nav-link {
+    color: #6c757d;
+  }
+  

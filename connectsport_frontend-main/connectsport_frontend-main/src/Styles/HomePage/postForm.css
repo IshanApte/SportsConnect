@@ -1,0 +1,99 @@
+.postFormCard {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Space at the bottom of the card */
+}
+
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .textareaStyle {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+  }
+  
+  .fileInputStyle {
+    display: none;
+  }
+  
+  .fileInputLabelStyle {
+    display: flex;
+    align-items: flex-start; /* Changed from 'start' to 'flex-start' */
+    justify-content: flex-start; /* Changed from 'start' to 'flex-start' */
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    cursor: pointer;
+  }  
+  
+  .submitButtonStyle {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .inputStyle {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .labelTextStyle {
+    margin-left: 8px;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+  
+  .buttonStyle {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .buttonsContainerStyle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .updatedButtonStyle {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    width: 48%;
+  }
+  
+  .iconStyle {
+    margin-right: 5px;
+  }
+  

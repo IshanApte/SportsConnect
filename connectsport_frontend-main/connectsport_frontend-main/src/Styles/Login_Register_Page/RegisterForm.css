@@ -1,0 +1,47 @@
+/* ---------- Register ---------- */
+
+.register__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.register__wrapper form {
+  width: 100rem;
+  max-width: 90%;
+  z-index: 1;
+  animation: showSignInForm 1s;
+}
+
+.register__wrapper form img {
+  width: 4rem;
+}
+
+.form-container {
+  max-height: calc(100vh - 50px); /* Adjust 50px based on your header/footer size */
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding: 20px; /* Optional: Adds some spacing inside the container */
+}
+
+
+@keyframes showSignInForm {
+  0%,
+  30% {
+    transform: translate(0, -150%);
+  }
+  70%,
+  90% {
+    transform: translate(0, 1rem);
+  }
+  80%,
+  100% {
+    transform: translate(0, 0);
+  }
+}

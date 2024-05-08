@@ -1,0 +1,47 @@
+.page-hero-section {
+  background-color: #f0f0f0; /* Light grey */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.page-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.page-description {
+  font-size: 16px;
+  color: #555; /* Dark grey */
+}
+
+.posts-heading {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.post-card {
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.pageTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.postsHeading {
+  background-color: white; /* White background */
+  padding: 10px 15px; /* Padding around the text */
+  border: 1px solid #ddd; /* Light grey border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: inline-block; /* Allows the background to wrap the content */
+  /* Additional styles for appearance */
+  border-radius: 5px; /* Rounded corners */
+  margin: 10px 0; /* Margin for spacing */
+} 

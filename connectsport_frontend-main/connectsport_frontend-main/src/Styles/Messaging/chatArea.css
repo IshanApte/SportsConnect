@@ -1,0 +1,31 @@
+/* CSS adjustments */
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message {
+    display: flex;
+    max-width: 80%; /* Maximum width for message bubbles */
+    word-break: break-word; /* Ensure long words do not overflow */
+  }
+  
+  .message.sent {
+    justify-content: flex-end;
+    margin-left: auto;
+    background-color: #DCF8C6;
+  }
+  
+  .message.received {
+    justify-content: flex-start;
+    margin-right: auto;
+    background-color: #ECECEC;
+  }
+  
+  .message p {
+    padding: 8px 12px; /* Adjust padding for better readability */
+    border-radius: 20px; /* Rounded corners for message bubbles */
+    margin: 4px; /* Space between messages */
+  }
+  
+  
